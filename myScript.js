@@ -5,13 +5,12 @@ function myFunction () {
 }
 
 //Defining variables
+var x = 
 
-var x = 5;
-var y = 6;
-var z = x + y;
 
 //This function changes the text in the math paragraph
 
-function mathFunction () {
-    document.getElementById('math').innerHTML = z;
+function mathFunction (x,y){
+    return 10 + 6;
+    document.getElementById('math').innerHTML = mathFunction(x,y);
 }
